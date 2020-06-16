@@ -242,13 +242,13 @@ public class MineSweeper
 		{
 			super();
 			addMouseListener(this);
-			seed = 420;
+			seed = 410;
 			inc = 16;
 			xOffset = 100;
 			yOffset = 100;
 			tWidth = 16;
 			tHeight = 16;
-			numMines = 10;
+			numMines = 50;
 			tWidth += 2;
 			tHeight += 2;
 			numMines += 1;
